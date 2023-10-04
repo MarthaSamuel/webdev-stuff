@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 600px) {
+                body {
+                    background-color:silver;
+                }
+            }
+
+            @media (max-width:599px) {
+                body {
+                    background-color: cornsilk;
+                }
+            }
+            thead {
+                background-color: deeppink;
+                width:fit-content;
+                height:fit-content;
+                padding: 25px;
+                border: 1.5px solid black;
+
+            }
+            body {
+                margin: 40px;
+                font-family:Georgia, 'Times New Roman', Times, serif ;
+            }
+            #foo {
+                font-size: 12px;
+                font-weight: bold;
+            }
+            table, td, th {
+                border: 1px solid black;
+                padding: 5px;
+                
+            }
+            table {
+                border-collapse: collapse;
+            }
+            a[href="?delete"] {
+                color:red;
+            }
+            button {
+                background-color: green;
+            }
+            button:hover { 
+                background-color: chocolate;
+            }
+            a:link, a:visited {
+            color: (internal value);
+            text-decoration: underline;
+            cursor: auto;
+            }
+
+            a:link:active, a:visited:active {
+            color: (internal value);
+            }   
+
+        </style>
+
+        <title>
+            Table
+        </title>
+    </head>
+    <body>
+        <h1>Table</h1>
+        <h2>Personal Information</h2>
+        <p id="foo">Update these everyday!</p>
+        <table >
+            <thead>
+                <tr>
+                    <th scope="col"> First Name </th>
+                    <th scope="col"> Last Name </th>
+                    <th scope="col"> Town </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Emma</td>
+                    <td>Sam</td>
+                    <td>Ld</td>
+                </tr>
+                <tr>
+                    <td>Sarah</td>
+                    <td>Sam</td>
+                    <td>Al</td>
+                </tr>
+                <tr>
+                    <td>Ify</td>
+                    <td>Sam</td>
+                    <td>Cd</td>
+                </tr>
+                <tr>
+                    <td>Oy</td>
+                    <td>Sam </td>
+                    <td>Ia</td>
+                </tr>
+            </tbody>
+
+
+
+        </table>
+        <p>
+            <button>Download</button>
+
+        </p>
+        
+        <footer>
+            <p><a href="?edit">Edit</a> | <a href="?delete">Delete</a> | <a href="?Rename">Rename</a></p><!--see nav-->
+        </footer>
+
+    </body>
+
+</html>

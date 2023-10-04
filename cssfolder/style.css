@@ -1,0 +1,19 @@
+
+.centered {
+    text-align: center;
+
+}
+header {
+    font-style: Bold; font-size: Large; font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.smallest{
+    font-size: xx-small;
+
+}
+.medium {
+    font-size: medium;
+
+}
+
+

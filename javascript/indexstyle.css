@@ -1,0 +1,11 @@
+*{
+    transition: all 100ms ease;
+}
+
+
+.dark-theme {
+    background-color: black;
+}
+.dark-theme /* add * here to change everything in b ody to white */{
+    color: white
+}

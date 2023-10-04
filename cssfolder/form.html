@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+           form
+        </title>
+    </head>
+    <body>
+        <div>
+            <form>
+                <input autocomplete="on" type="text" placeholder="Full Name" name="name">
+                <input name="password" type="password" placeholder="Password">
+                <input type="submit" value="Login">
+            </form>
+
+        </div>
+        <div>
+            <p>Favorite Color :
+            <input name="color" type="radio" value="red">Red
+            <input name="color" type="radio" value="Purple">Purple
+            <input name="color" type="radio" value="blue">Blue
+            </p>
+        </div>
+        <div>
+            <p>Show Checkboxes</p>
+
+            <form action="/checkedvalue_page.php"> <!--the page that returns checked answers -->
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label><br><br>
+            <input type="submit" value="Submit">
+            </form><br>
+
+        </div>
+        <div>
+            <form method="post" action="/Tests/Post/">      
+                <fieldset>      
+                    <legend>What is Your Favorite Pet?</legend>      
+                    <input type="checkbox" name="favorite_pet" value="Cats">Cats<br>      
+                    <input type="checkbox" name="favorite_pet" value="Dogs">Dogs<br>      
+                    <input type="checkbox" name="favorite_pet" value="Birds">Birds<br>      
+                    <br>      
+                    <input type="submit" value="Submit now">      
+                </fieldset>      
+            </form><br>
+        </div>
+        <div>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Angola">
+                <option value="USA">
+                <option value="Kitts">   
+
+                </option>
+
+            </datalist>
+        </div>
+        
+
+    </body>
+
+</html>
